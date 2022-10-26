@@ -53,6 +53,38 @@
             font-size: 12px;
             
         }
+        #faq{
+            border: solid;
+            margin-bottom: 20px;
+            height: auto;
+            padding: 5px;
+            line-height: 10px;
+            
+        }
+        #faq>dl{
+            border: solid;
+            margin-bottom: 10px;
+        }
+        .ques{
+            height:50px;    
+            width: 95%;
+            padding: 5px;
+            color: rgb(98, 56, 56);
+            margin: auto;
+            /* border: solid; */
+            margin-bottom: -30px;
+            transition:0.7s;
+
+        }
+        .ans{
+            width: 95%;
+            
+            color: rgb(82, 130, 82);
+            /* border: solid green; */
+            margin-bottom: 10px;
+           
+           
+        }
         
     </style>
 
@@ -84,85 +116,35 @@
 
          <!-- navbar-->
          
-        <nav id="navbar" style="border:none ;">
+         <nav id="navbar" style="border:none ;">
            
-                <div> <a href="./index.html"><p>HOME</p></a></div>
-                <div> <a href="./courses.html"><p>ALL COURSES</p></a></div>
+            <div> <a href="./index.html"><p>HOME</p></a></div>
+           
 
-                <div> <a href="#">
-                   
-                    <p>SERVICES</p></a>
-                     <!-- service sub list -->
-                    <div class="nav-sub">
-                        <a href="#"><div>Internship Program</div></a>
-                        <a href="#"><div>Placement Assignment</div></a>
-                        <a href="#"><div>Placements</div></a>
-                        <a href="#"><div>Nacre</div></a>
-                    </div>
-                  </div>
-
-                <div> <a href="">
-                    <p>SOFTWARE  TRAINING</p></a>
-                     <!-- software sub list -->
-                    <div class="nav-sub">
-                        <a href="#"><div>Classroom Training</div></a>
-                        <a href="#"><div>Online Training</div></a>
-                        <a href="#"><div>Weekend Training</div></a>
-                        <a href="#"><div>Corporate Training</div></a>
-                        <a href="#"><div>Trainers Portfolio</div></a>
-                        <a href="#"><div>Course Schedule </div></a>
-                        
-                    </div>
+            <div> <a href="./courses.html">
+                <p>SOFTWARE  TRAINING</p></a>
+                 <!-- software sub list -->
+                <div class="nav-sub">
+                    <a href="./classroom.html"><div>Classroom Training</div></a>
+                    <a href="./online.html"><div>Online Training</div></a>
+                    <a href="./weekend.html"><div>Weekend Training</div></a>
+                    
                 </div>
-                
-                <div> 
-                    <a href=""><p>PROJECTS</p></a>
-                     <!-- projects sub list -->
-                    <div class="nav-sub">
-                        <a href="#"><div>Live Projects</div></a>
-                        <a href="#"><div>iEEE Projects</div></a>
-                        <a href="#"><div>Realtime Projects</div></a>
-                    </div>
-                
-                </div>
-                <div> 
-                    <a href=""><p>CAREERS</p></a>
-                    <!-- careers sub list -->
-                    <div class="nav-sub">
-                        <a href="#"><div>Placements Registration</div></a>
-                        <a href="#"><div>Job Openings</div></a>
-                        <a href="#"><div>IT Jobs Training</div></a>
-                        <a href="#"><div>Interview Questions</div></a>
-                    </div>
-                
-                
-                </div>
-                <div> 
-                    <a href="./about.html"><p>ABOUT</p></a>
-                    <div class="nav-sub">
-                        <a href="#"><div>Vision and Mission</div></a>
-                        <a href="#"><div>Our Philosophy</div></a>
-                        <a href="#"><div>Management Team</div></a>
-                        <a href="#"><div>Infrasturcture</div></a>
-                        <a href="#"><div>Testimonials</div></a>
-                    </div>
-                </div>
-                <div> 
-                    <a href=""><p>NEW  BATCHES</p></a>
-                
-                    <div class="nav-sub">
-                        <a href="#"><div>Internship Program</div></a>
-                        <a href="#"><div>Placement Assignment</div></a>
-                        <a href="#"><div>Placements</div></a>
-                        <a href="#"><div>Nacre</div></a>
-                    </div>
-                </div>
-                <div> 
-                    <a href=""><p>BLOG</p></a>
-        
-                </div>
-               
-        </nav>
+            </div>
+            
+            <div> 
+                <a href="./realtime.html"><p>PROJECTS</p></a>
+            
+            
+            </div>
+            
+            <div> 
+                <a href="./about.html"><p>ABOUT</p></a>
+              
+            </div>
+            
+           
+    </nav>
         <!-- navbar end -->
           <!-- main start -->  
         <main>
@@ -238,6 +220,70 @@
                 </div> 
 
             </div>
+            <div id="faq">
+                <dl>
+                    <dt class="ques">
+                        <p><b>What is duration of the program ?</b></p>
+                    </dt>
+                    <dd class="ans">
+                        <p><b> Full Time Course</b></p>
+                        <p>Duration: 35 Weeks</p>
+                        <p>Timing: Monday- Saturday, 11am- 11pm</p>
+                        <br>
+                        <p><b>Part Time Course</b></p>
+                        <p>Duration: 35 Weeks</p>
+                        <p>Timing: Monday- Friday, 8pm- 11pm; Saturday, 10am-5pm</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="ques">
+                        <p><b> What is eligibility Criteria ?</b></p>
+                    </dt>
+                    <dd class="ans" style="line-height:25px ;">
+                        <p><b> Age-</b></p>
+                        <ul>
+                            <li>Software Development Courses: 18-28 years.</li>
+                            <li>Data Analytics: 18-28 years.</li>
+                        </ul>
+                        <p><b> Academic Background-</b></p>
+                        <ul>
+                            <li>You need no prior coding skills to join our course.</li>
+                            <li>College dropouts may also apply.</li>
+                            <li>Part-Time Courses are available for students graduating in 2023 and for working professionals (aged 18-28).</li>
+                        </ul>
+                        <p><b> Entrance Test- </b></p>
+                        <ul>
+                            <li>For Software Development: You have 1 attempt to clear the test. On not clearing, you can apply to the next batch.</li>
+                         
+                        </ul>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="ques">
+                        <P><b>What computer specs do I need</b></P>
+                    </dt>
+                    <dd class="ans">
+                        <p><b>Minimum</b></p>
+                        <p>1.6 GHz Processor</p>
+                        <p>4 GB RAM</p>
+                        <p>120 GB Hard Drive</p>
+                        <p>Web Cam</p>
+                        <p>Microphone</p>
+                        <br>
+                        <p><b>Recommended</b></p>
+                        <p>2 GHz Processor</p>
+                        <p>8 GB RAM</p>
+                        <p>256 GB Hard Drive (preferably solid state)</p>
+                        <p>Internet Requirement - Minimum 2GB / 4GB of data per dayWeb Cam</p>
+                        <p>Download speed recommended 20mbps, minimum 10mbps</p>
+                        <br>
+                        <p><b>Please Note: </b> Recommended operating systems (in descending order): Windows, Mac</p>
+                        <br>
+                        <p style="line-height:25px ;"><b>Note:</b> You must have Microsoft Office installed with version of 2013 or above. Windows OS is preferred as there are many features missing in Mac version of Excel.</p>
+                        <p><b>Preferred versions:</b> Windows 10 64 bit</p>
+                    </dd>
+                </dl>
+            </div>
         </main>
         <!-- main end -->
         <!-- footer start -->
@@ -254,16 +300,16 @@
            <div>
             <h5>INTERVIEW QUESTIONS</h5>
             <hr style="border:none;border-bottom:1.5px solid red;margin-bottom: 20px;">
-            <ul >
-                <li><a href="#">DevOps Interview Questions</a></li>
-                <li><a href="#">AngularJS Interview Questions</a></li>
-                <li><a href="#">Java Interview Questions</a></li>
-                <li><a href="#">HTML Interview Questions</a></li>
-                <li><a href="#">JavaScript Interview Questions</a></li>
-                <li><a href="#">Advanced Java Interview Questions</a></li>
-                <li><a href="#">HTML5 and CSS Interview Questions</a></li>
+            <Ol >
+                <li>DevOps Interview Questions</li>
+                <li>AngularJS Interview Questions</li>
+                <li>Java Interview Questions</li>
+                <li>HTML Interview Questions</li>
+                <li>JavaScript Interview Questions</li>
+                <li>Advanced Java Interview Questions</li>
+                <li>HTML5 and CSS Interview Questions</li>
               
-            </ul>
+            </Ol>
          
            </div>
            <div>
@@ -283,6 +329,7 @@
                 <div >
                     <h5 >JOIN OUR TELEGRAM – GET UPDATES</h5>
                     <hr style="border:none;border-bottom:1.5px solid red;margin-bottom: 20px;margin-top: -10px;">
+                    <center><a href="mailto:someone@example.com">Feel free to contact us</a></center>
                 </div>
             </div>
         </footer>

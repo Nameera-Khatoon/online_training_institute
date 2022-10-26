@@ -64,7 +64,7 @@ body{
 }
 .right-div>:nth-child(1)>p{
     
-    word-spacing: 2%;
+    word-spacing: 5px;
 }
 
 .social-network{
@@ -103,8 +103,8 @@ body{
     background-color:#555555;
     max-height: 50px;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 1fr 1fr 2fr 1fr;
-
+    grid-template-columns: repeat(5,1fr);
+    font-weight: 400;
     /* gap: 20px; */
   
     text-align: center;
