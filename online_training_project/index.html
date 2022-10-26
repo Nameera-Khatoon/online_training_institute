@@ -13,16 +13,46 @@
     <style>
         #banner{
             width: 100%;
-            border: solid;
-            height: 450px;
+            border: 0px solid;
+            height: 500px;
             box-sizing: border-box;
+            background-image:url('./images/banner.png');
+       
+            background-position: 0 0;
+             background-repeat: no-repeat;
+             background-size: 100% 80%;
         }
-        #banner img{
-            display: block;
+        #block{
+            border:0px solid grey;
+            margin: 20px;
+        }
+        #block1{
+            border: 0px solid red;
             width: 100%;
-          height: 100%;
-          box-sizing: border-box;
+            height: 50%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 40px;
+            margin-bottom: 30px;
+            /* grid-template-rows: 300px; */
         }
+        #block2{
+            height: 50%;
+            border:0px solid red;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+           
+            gap: 40px;
+        }
+        .block-cart{
+            border: 0px solid;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            
+        }
+        
     </style>
 
 </head>
@@ -52,7 +82,8 @@
          <!-- header end-->
 
          <!-- navbar-->
-         <div id="navbar">
+         
+        <nav id="navbar" style="border:none ;">
            
                 <div> <a href="./index.html"><p>HOME</p></a></div>
                 <div> <a href="./courses.html"><p>ALL COURSES</p></a></div>
@@ -82,6 +113,7 @@
                         
                     </div>
                 </div>
+                
                 <div> 
                     <a href=""><p>PROJECTS</p></a>
                      <!-- projects sub list -->
@@ -129,14 +161,130 @@
         
                 </div>
                
+        </nav>
+        <!-- navbar end -->
+          <!-- main start -->  
+        <main>
+            
+            <!-- banner div -->
+            <div id="banner">
+            </div>
+            <!-- service div -->
 
-          
+            <div id="services">
+                <div style="margin:1px;"><h2><i>Welcome To Software-Training-Institute! How can we help you..</i></h2></div>
+                <div id="block">
+                    <div id="block1">
+                        <div class="block-cart">
+                            <div style="height:30%; text-align: center; padding: 20px;"><img src="./images/software.png" alt="software" width="40%" height="100%"></div>
+                            <div style="height:70% ;">
+                                <h3>Software Training</h3>
+                                <p style="color: rgb(83, 77, 77);">Software-Training-Institute is No. 1 Leading training Institute offering classroom training on Java, J2EE, .NET and Oracle.</p>
+                            
+                            </div>
+                        </div>
+                        <div class="block-cart">
+                            <div style="height:30%; text-align: center; padding: 20px;"><img src="./images/project.png" alt="project" width="40%" height="100%"></div>
+                            <div style="height:70% ;">
+                                <h3>Project Training</h3>
+                                <p style="color: rgb(83, 77, 77);">Project Training Get Trained from anywhere with an Internet connection. Instructors teach students in a classroom and you can attend these courses online in real-time also. Includes demonstrations & hands-on lab sessions.</p>
+                            
+                            </div>
+                        </div>
+                        <div class="block-cart">
+                            <div style="height:30%; text-align: center; padding: 20px;"><img src="./images/weekend_workshop.png" alt="weekend_workshop" width="60%" height="100%"></div>
+                            <div style="height:70% ;">
+                                <h3>Weekend Workshop</h3>
+                                <p style="color: rgb(83, 77, 77);">Your team trained at your company premises. Learn content tailored to match your organization specific needs. You set the date & time and we deliver it.</p>
+                            
+                            </div>
+                        </div>
+                        <div class="block-cart">
+                            <div style="height:30%; text-align: center; padding: 20px;"><img src="./images/Active_support.png" alt="" width="50%" height="100%"></div>
+                            <div style="height:70% ;">
+                                <h3>IT Consulting</h3>
+                                <p style="color: rgb(83, 77, 77);">Software-Training-Institute is No. 1 Leading training Institute offering classroom training on Java, J2EE, .NET and Oracle.</p>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div id="block2">
+                        <div class="block-cart">
+                            <div style="height:40%; text-align: center; padding: 20px;"><img src="./images/classroom.png" alt="" width="60%" height="100%"></div>
+                            <div style="height:60% ;">
+                                <h3>Classroom Training</h3>
+                                <p style="color: rgb(83, 77, 77);">We have the best faculty with excellent Lab Infrastructure along with detailed course material.</p>
+                            
+                            </div>
+                        </div>
+                        <div class="block-cart">
+                            <div style="height:40%; text-align: center; padding: 20px;"><img src="./images/onlineTraining.png" alt="" width="45%" height="100%"></div>
+                            <div style="height:60% ;">
+                                <h3>Online Training</h3>
+                                <p style="color: rgb(83, 77, 77);">We offer most of the course online with virtual classroom to serve the IT aspirants.</p>
+                            
+                            </div>
+                        </div>
+                        <div class="block-cart">
+                            <div style="height:40%; text-align: center; padding: 20px;"><img src="./images/corporate.png" alt="" width="60%" height="100%"></div>
+                            <div style="height:60% ;">
+                                <h3>Corporate Training</h3>
+                                <p style="color: rgb(83, 77, 77);">We have experienced faculty to train professionals for improving their technology skills to day to day needs.</p>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+            </div>
+        </main>
+        <!-- main end -->
+        <!-- footer start -->
+        <footer>
+           <div>
+            <h5>ABOUT SOFTWARE TRAINING INSTITUTE</h5>
+            <hr style="border:none;border-bottom:1.5px solid red;margin-bottom: 20px;">
+            
+            <p>Training Institute Overview <br>Technologies Software training insititute <br>(Pronounced: Software training insititute) is a leading software training institute providing Software Training, Project Guidance, IT Consulting and Technology Workshops. Using our enhanced global software training delivery methodology, </p>
+         
+            
            
-         </div>
-         <div id="banner">
-            <img src="./images/banner.png" alt="">
-         </div>
-
+        </div>
+           <div>
+            <h5>INTERVIEW QUESTIONS</h5>
+            <hr style="border:none;border-bottom:1.5px solid red;margin-bottom: 20px;">
+            <ul >
+                <li><a href="#">DevOps Interview Questions</a></li>
+                <li><a href="#">AngularJS Interview Questions</a></li>
+                <li><a href="#">Java Interview Questions</a></li>
+                <li><a href="#">HTML Interview Questions</a></li>
+                <li><a href="#">JavaScript Interview Questions</a></li>
+                <li><a href="#">Advanced Java Interview Questions</a></li>
+                <li><a href="#">HTML5 and CSS Interview Questions</a></li>
+              
+            </ul>
+         
+           </div>
+           <div>
+            <h5>ADDRESS</h5>
+            <hr style="border:none;border-bottom:1.5px solid red;margin-bottom: 20px;">
+           </div>
+           <div>
+                <h5>FOLLOW US ON SOCIAL MEDIA</h5>
+                <hr style="border:none;border-bottom:1.5px solid red;margin-bottom: 20px;">
+                <div  class="network">
+                    <a href="#"><i class="fa-brands fa-instagram" ></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div >
+                    <h5 >JOIN OUR TELEGRAM – GET UPDATES</h5>
+                    <hr style="border:none;border-bottom:1.5px solid red;margin-bottom: 20px;margin-top: -10px;">
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
